@@ -1,0 +1,20 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.scss' %}">
+
+{% if user.is_authenticated %}
+<div class="homeheader">
+    <div class="headingline">Italian Foods</div>
+    <div class="backspace1"><a href="/" class="backbutton">Back</a></div>
+ </div>
+ 
+ {% for feature in feature1%}
+ <div class="boxes">
+ <div class="topicline">{{feature.name}} </div>
+ <div class="detailline">{{feature.details}} </div>
+ </div>
+ {%endfor%}
+
+
+{% else %}
+<h1>Login first to enter a site.Thank you!!!</h1>
+{% endif %}

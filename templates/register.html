@@ -1,0 +1,24 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.scss' %}">
+
+
+
+    <div class="loginfo">Enter the required information to Signup:</div>
+    <form method="POST" action="register">
+          {%csrf_token%}
+          <div class="nameinfo">Username:</div>
+          <input type="text" name="username"/>
+          <div class="nameinfo">Email:</div>
+            <input type="email" name="email"/>
+          <div class="passwordinfo">Password:</div>
+          <input type="password" name="password"/><br>
+          <div class="passwordinfo">Repeat Password:</div>
+          <input type="password" name="password2"/><br>
+      <input type="submit" class="submit"/>
+    </form>
+    </div>
+    <div class="messages">
+      {% for message in messages %}
+      <div class="messinfo">{{message}}</div>
+      {% endfor %}
+      </div>

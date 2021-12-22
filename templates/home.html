@@ -1,0 +1,36 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.scss' %}">
+
+
+{% if user.is_authenticated %}
+
+ <div class="homeheader">
+    <div class="headingline">Welcome to Food Land</div>
+    <div class="logout"><a href="logout" class="logoutbutton">logout</a></div>
+ </div>
+ <div class="fooddiscribe">Although we may not be able to travel to every country in the world, especially these days, we can still experience different food cultures by tasting the most popular signature dishes and staple ingredients of each country.Here are some popular dishes:</div>
+ <div class="foodalign">
+    <div class="food"><a href="chinese" class="foodbutton">Chinese</a></div>
+    <div class="food"><a href="indian" class="foodbutton">Indian</a></div>
+    <div class="food"><a href="italian" class="foodbutton">Italian</a></div>
+    <div class="food"><a href="peopledata" class="foodbutton">Data</a></div>
+ </div>
+ 
+ 
+
+
+
+ {% else %}
+
+<div class="firstpage">
+    You have to login so that you get  informations about  different varities of food that are most popular in different countries....
+</div>
+<div class="secondline">
+    So click on the login button below
+</div>
+<div class="logindecorate">
+    <a href="login" class="loginbutton">login</a>
+    </div>
+   
+
+{% endif %}

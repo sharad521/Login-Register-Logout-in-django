@@ -1,0 +1,201 @@
+.messages{
+    font-size: 30px;
+    border:solid;
+    width: 450px;
+    height: 50px;
+    margin-left: 350px;
+    color: white;
+}
+.messinfo{
+    color: red;
+}
+
+.outerframe{
+    border: solid;
+    width: 620px;
+    padding-left: 40px;
+    margin-left: 300px;
+    margin-top: 10px;
+    background-color: rgb(36, 185, 211);
+    border-color:rgb(36, 185, 211); ;
+}
+input{
+    height:40px;
+    width: 420px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.loginfo{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: xx-large;
+    padding-bottom: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.nameinfo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    margin-bottom: 5px;
+    margin-left: 70px;
+    font-size: x-large;
+}
+.passwordinfo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    font-size: x-large;
+}
+.submit{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 90px;
+    
+}
+.signup{
+    margin-left: 390px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: bold;
+}
+.firstpage{
+    margin-top: 140px;
+    font-size: 35px;
+    margin-left: 250px;
+    margin-right: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+}
+.secondline{
+    font-size: 23px;
+    margin-top: 60px;
+    margin-left: 450px;
+    font-family: fantasy;
+}
+.loginbutton{
+    font-size: 25px;
+    text-decoration: none;
+}
+.logindecorate{
+    border: solid;
+    width: 60px;
+    height: 35px;
+    margin-left: 550px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+.signinbutton{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(185, 47, 47);
+}
+.signupdecorate{
+    border: solid;
+    width: 75px;
+    height: 32px;
+    margin-left: 550px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.homeheader{
+    border: solid;
+    width: 1360px;
+    height: 60px;
+    margin: -8px;
+    margin-right: -5px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+    border-color:darkcyan ;
+}
+.headingline{
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: firebrick;
+    font-weight: bold;
+}
+.logout{
+    border: solid;
+    width: 110px;
+    height: 100%;
+    margin-left: 709px;
+    padding-left: 10px;
+    margin-top: -3px;
+    background-color:rgb(44, 167, 167) ;
+    border-color: rgb(44, 167, 167);
+  
+}
+.logoutbutton{
+    font-size: 42px;
+    text-decoration: none;
+    color: firebrick;
+}
+.fooddiscribe{
+    margin-top: 100px;
+    font-size: 29.3px;
+  
+}
+.food{
+    border: solid;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.foodbutton{
+    font-size: 42px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: firebrick;
+    
+}
+.foodalign{
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+.backbutton{
+    font-size: 42px;
+    text-decoration: none;
+    color: firebrick;
+}
+.backspace1{
+    border: solid;
+    width: 110px;
+    height: 100%;
+    margin-left: 832px;
+    padding-left: 10px;
+    margin-top: -3px;
+    background-color:rgb(44, 167, 167) ;
+    border-color: rgb(44, 167, 167);
+  
+}
+.boxes{
+    width: 350px;
+    height: 300px;
+    border: solid;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.topicline{
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.detailline{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.aligningcontent{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,27 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.scss' %}">
+<div class="back">
+  <div class="messages">
+{% for message in messages %}
+<div class="messinfo">{{message}}</div>
+{% endfor %}
+</div>
+<div class="positioning">
+<div class="outerframe">
+<div class="loginfo">Enter the required information to login:</div>
+<form method="POST" action="login"> 
+  {%csrf_token%}
+      <div class="nameinfo">Username:</div class="nameinfo">
+      <input type="text" name="username"/>
+      <div class="passwordinfo">Password:</div>
+      <input type="password" name="password"/><br>
+ 
+  <input type="submit" class="submit"/>
+</form>
+</div>
+<div class="signup">Click on the button below to Signup</div>
+<div class="signupdecorate">
+<a href="register" class="signinbutton">Signup</a>
+</div>
+
+</div>
